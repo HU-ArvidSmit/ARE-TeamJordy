@@ -1,0 +1,19 @@
+name: Auto Assign Issues to Projects
+
+on:
+  issues:
+    types: [Labeled]
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
+jobs:
+  assign_to_project:
+    runs-on: ubuntu-latest
+    name: Assign User Stories to Backlog
+    steps:
+    - name: Assign issues with new-User Stories label to Backlog Project
+      uses: srggrs/assign-one-project-github-action@1.2.0
+      if: contains(github.event.issue.labels.*.name, 'User Stories')
+      with:
+        project: 'https://github.com/HU-ArvidSmit/Project-Bezem/projects/1'
+        column_name: 'Concept'
