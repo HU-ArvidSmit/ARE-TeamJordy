@@ -1,3 +1,3 @@
 ### Arvid
 
-[Arvid's profiel photo](./colourstormtrooper.jpg)
+[Arvid's profiel photo](./colourstormtrooper.png)
