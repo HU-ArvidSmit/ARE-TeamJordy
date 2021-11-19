@@ -1,4 +1,4 @@
-#TeamJordy
+# TeamJordy
 
 ### Members
 - [Arvid](/members/arvid.md)
