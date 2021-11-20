@@ -1,3 +1,3 @@
 # Jordy Bronowicki
 
-![Foto van Jordy](members/hackerman.png)
+![Foto van Jordy](hackerman.png)
