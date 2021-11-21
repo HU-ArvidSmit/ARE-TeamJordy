@@ -1,4 +1,4 @@
 # Sandara
-Ik ben *sandara*
+I am *sandara*
 ![la photo de sandara](sannie.jpg)
 
